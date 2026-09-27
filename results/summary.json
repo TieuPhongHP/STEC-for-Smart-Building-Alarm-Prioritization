@@ -1,0 +1,10 @@
+{
+  "runtime_sec": 32.53430700302124,
+  "n_train": 19600,
+  "n_val": 4800,
+  "n_test": 11200,
+  "positive_rate_train": 0.07918367346938776,
+  "positive_rate_test": 0.08553571428571428,
+  "features_raw": 26,
+  "features_all": 40
+}

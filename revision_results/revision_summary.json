@@ -1,0 +1,167 @@
+{
+  "E1": {
+    "AUPRC": {
+      "STEC_mean": 0.9331564513564984,
+      "STEC_sd": 0.020353085342504254,
+      "Flat_mean": 0.5808237057553806,
+      "Flat_sd": 0.06527953149312471,
+      "STEC_min": 0.8935149080811284,
+      "STEC_max": 0.9554691486686868,
+      "sites_better": 12,
+      "wilcoxon_p": 0.00048828125
+    },
+    "F1": {
+      "STEC_mean": 0.8662399426607305,
+      "STEC_sd": 0.02462359900050695,
+      "Flat_mean": 0.5756960745490529,
+      "Flat_sd": 0.05113388381632354,
+      "STEC_min": 0.8263157894736842,
+      "STEC_max": 0.899009900990099,
+      "sites_better": 12,
+      "wilcoxon_p": 0.00048828125
+    },
+    "FAR": {
+      "STEC_mean": 10.646295410871256,
+      "STEC_sd": 3.4746749176763507,
+      "Flat_mean": 72.53817479989478,
+      "Flat_sd": 13.577957880218715,
+      "STEC_min": 6.304176516942475,
+      "STEC_max": 17.584994138335286,
+      "sites_better": 12,
+      "wilcoxon_p": 0.00048828125
+    }
+  },
+  "E5": {
+    "n_windows": 789,
+    "mean_drop_evidence_pair": 0.7326874924417635,
+    "mean_drop_random_pair": 0.4625503817832319,
+    "flip_rate_evidence_pair": 0.8403041825095057,
+    "flip_rate_random_pair": 0.5348542458808618,
+    "wilcoxon_p": 1.2696632081060437e-65
+  },
+  "E2": {
+    "AUPRC|mean": {
+      "lambda": 0.9308,
+      "sequences": 0.9246,
+      "sequences_random": 0.9225,
+      "tau": 0.9303,
+      "weights": 0.931,
+      "weights_noisy": 0.9319,
+      "weights_shuffled": 0.9228
+    },
+    "AUPRC|min": {
+      "lambda": 0.9264,
+      "sequences": 0.9246,
+      "sequences_random": 0.9205,
+      "tau": 0.9287,
+      "weights": 0.931,
+      "weights_noisy": 0.9279,
+      "weights_shuffled": 0.9154
+    },
+    "AUPRC|max": {
+      "lambda": 0.9352,
+      "sequences": 0.9246,
+      "sequences_random": 0.9251,
+      "tau": 0.9314,
+      "weights": 0.931,
+      "weights_noisy": 0.9346,
+      "weights_shuffled": 0.9302
+    },
+    "F1|mean": {
+      "lambda": 0.8521,
+      "sequences": 0.8549,
+      "sequences_random": 0.8532,
+      "tau": 0.8607,
+      "weights": 0.8749,
+      "weights_noisy": 0.8695,
+      "weights_shuffled": 0.8593
+    },
+    "F1|min": {
+      "lambda": 0.8434,
+      "sequences": 0.8549,
+      "sequences_random": 0.847,
+      "tau": 0.8559,
+      "weights": 0.8749,
+      "weights_noisy": 0.8617,
+      "weights_shuffled": 0.8525
+    },
+    "F1|max": {
+      "lambda": 0.8609,
+      "sequences": 0.8549,
+      "sequences_random": 0.8563,
+      "tau": 0.8682,
+      "weights": 0.8749,
+      "weights_noisy": 0.8737,
+      "weights_shuffled": 0.873
+    },
+    "FAR|mean": {
+      "lambda": 6.6881,
+      "sequences": 6.2488,
+      "sequences_random": 8.3187,
+      "tau": 7.2577,
+      "weights": 9.6661,
+      "weights_noisy": 9.4708,
+      "weights_shuffled": 9.9199
+    },
+    "FAR|min": {
+      "lambda": 4.1984,
+      "sequences": 6.2488,
+      "sequences_random": 5.663,
+      "tau": 6.4441,
+      "weights": 9.6661,
+      "weights_noisy": 8.4944,
+      "weights_shuffled": 7.811
+    },
+    "FAR|max": {
+      "lambda": 9.1779,
+      "sequences": 6.2488,
+      "sequences_random": 14.0598,
+      "tau": 7.9086,
+      "weights": 9.6661,
+      "weights_noisy": 11.5212,
+      "weights_shuffled": 14.3527
+    }
+  },
+  "E4": {
+    "AUROC|mean": {
+      "Event-GNN (learned relations)": 0.9896,
+      "Event-GNN + zone distance": 0.9921
+    },
+    "AUROC|std": {
+      "Event-GNN (learned relations)": 0.0016,
+      "Event-GNN + zone distance": 0.0009
+    },
+    "AUPRC|mean": {
+      "Event-GNN (learned relations)": 0.9362,
+      "Event-GNN + zone distance": 0.9666
+    },
+    "AUPRC|std": {
+      "Event-GNN (learned relations)": 0.0077,
+      "Event-GNN + zone distance": 0.005
+    },
+    "F1|mean": {
+      "Event-GNN (learned relations)": 0.8861,
+      "Event-GNN + zone distance": 0.9259
+    },
+    "F1|std": {
+      "Event-GNN (learned relations)": 0.0167,
+      "Event-GNN + zone distance": 0.0095
+    },
+    "FAR|mean": {
+      "Event-GNN (learned relations)": 7.9737,
+      "Event-GNN + zone distance": 5.4026
+    },
+    "FAR|std": {
+      "Event-GNN (learned relations)": 0.6501,
+      "Event-GNN + zone distance": 1.1316
+    },
+    "Brier|mean": {
+      "Event-GNN (learned relations)": 0.0153,
+      "Event-GNN + zone distance": 0.0111
+    },
+    "Brier|std": {
+      "Event-GNN (learned relations)": 0.0014,
+      "Event-GNN + zone distance": 0.0007
+    }
+  }
+}

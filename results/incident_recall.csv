@@ -1,0 +1,9 @@
+Incident type,n,Recall
+vehicle_mismatch,119,0.957983193277311
+life_safety,94,0.925531914893617
+unauthorized_entry,170,0.9058823529411765
+forced_door,125,0.856
+sabotage,89,0.8539325842696629
+tailgating,129,0.8294573643410853
+elevator_override,92,0.7717391304347826
+after_hours_access,140,0.7071428571428572
